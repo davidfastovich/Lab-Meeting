@@ -36,7 +36,7 @@ If you plan on doing your age modeling directly through geoChronR then you will 
 
 We're now up and running with the geoChronR package and can get to time uncertainty work! Let start with some [examples](https://uwprod-my.sharepoint.com/personal/fastovich_wisc_edu/_layouts/15/guestaccess.aspx?guestaccesstoken=0bUdE7bR4dhNzP18RurlRle7ZLMsO%2frkYwDPrSdxfgM%3d&folderid=2_0cf27dc073eec4cff93e122123c7f4a92&rev=1) first.
 
-If you want feel free to (read up)[https://uwprod-my.sharepoint.com/personal/fastovich_wisc_edu/_layouts/15/guestaccess.aspx?guestaccesstoken=lHdqzvZzp%2bIB1HXqKTIFjdLYU4JsDrI2mq3TysnqU6o%3d&folderid=2_11c28acdfb2b74a618e7aa38c9b88e5b1&rev=1] on what work is possible with geoChronR.
+If you want feel free to [read up][https://uwprod-my.sharepoint.com/personal/fastovich_wisc_edu/_layouts/15/guestaccess.aspx?guestaccesstoken=lHdqzvZzp%2bIB1HXqKTIFjdLYU4JsDrI2mq3TysnqU6o%3d&folderid=2_11c28acdfb2b74a618e7aa38c9b88e5b1&rev=1] on what work is possible with geoChronR.
 
 ---
 
