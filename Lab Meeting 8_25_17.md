@@ -18,7 +18,8 @@ install.packages("devtools")
 ```
 install_github("nickmckay/GeoChronR")
 ```
-      * This can take a while since the geoChronR package depends on a lot of other packages which will also be installed in the process.
+
+   This can take a while since the geoChronR package depends on a lot of other packages which will also be installed in the process.
 
 4. Load the geoChronR package into the R environment:
 ```
@@ -52,10 +53,13 @@ If you've enjoyed this lab and plan on doing some more work with geoChronR in th
 ```
 pip install lipd
 ```
+
    If the command above does not work (it may for Python 3.6+ users) try:
+
 ```
 pip3 install --egg lipd
 ```
+
    * If Python is giving you an error saying `pip` is not a recognized command you need to follow a few extra steps which worked for me, but mileage may vary.
       1. Locate the Python installation directory, its often located in **C:\Users\USERNAME\AppData\Local\Programs\Python\PythonXX-32**
       2. Go into the *Scripts* folder
