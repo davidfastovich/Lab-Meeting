@@ -15,14 +15,8 @@ In order to generate and work with LiPD files in the geoChronR package we need t
    `install.packages("devtools")`
 
 3. Install the geoChronR package:
-<<<<<<< HEAD
-```
-install_github("nickmckay/GeoChronR")
-```
-=======
 
    `install_github("nickmckay/GeoChronR")`
->>>>>>> parent of 2752def... Changed from chunks to code blocks
 
    This can take a while since the geoChronR package depends on a lot of other packages which will also be installed in the process.
 
@@ -55,24 +49,12 @@ If you've enjoyed this lab and plan on doing some more work with geoChronR in th
 3. Open the Python environment
    * In Windows this will be the program named **Python X.XX**
 4. In the Python window type:
-<<<<<<< HEAD
-```
-pip install lipd
-```
-
-   If the command above does not work (it may for Python 3.6+ users) try:
-
-```
-pip3 install --egg lipd
-```
-=======
 
    `pip install lipd`
 
    If the command above does not work (it may not for Python 3.6+ users) try:
 
    `pip3 install --egg lipd`
->>>>>>> parent of 2752def... Changed from chunks to code blocks
 
    * If Python is giving you an error saying `pip` is not a recognized command you need to follow a few extra steps which worked for me, but mileage may vary.
       1. Locate the Python installation directory, its often located in **C:\Users\USERNAME\AppData\Local\Programs\Python\PythonXX-32**
