@@ -11,28 +11,33 @@ In order to generate and work with LiPD files in the geoChronR package we need t
 
 1. Open RStudio
 2. Install the devtools package by typing the following into the console:
-```
-install.packages("devtools")
-```
+
+   `install.packages("devtools")`
+
 3. Install the geoChronR package:
+<<<<<<< HEAD
 ```
 install_github("nickmckay/GeoChronR")
 ```
+=======
+
+   `install_github("nickmckay/GeoChronR")`
+>>>>>>> parent of 2752def... Changed from chunks to code blocks
 
    This can take a while since the geoChronR package depends on a lot of other packages which will also be installed in the process.
 
 4. Load the geoChronR package into the R environment:
-```
-library(geoChronR)
-```
+
+   `library(geoChronR)`
+
 5. Load the lipdR package into the R environment:
-```
-library(lipdR)
-```
+
+   `library(lipdR)`
+
 6. Setup GeoChronR for initial use:
-```
-setupGeoChronR()
-```
+
+   `setupGeoChronR()`
+
 If you plan on doing your age modeling directly through geoChronR then you will also need [bacon](http://chrono.qub.ac.uk/blaauw/), [clam](http://chrono.qub.ac.uk/blaauw/), or [Bchron](https://cran.r-project.org/web/packages/Bchron/index.html).
 
 We're now up and running with the geoChronR package and can get to time uncertainty work! Let start with some [examples](https://uwprod-my.sharepoint.com/personal/fastovich_wisc_edu/_layouts/15/guestaccess.aspx?guestaccesstoken=0bUdE7bR4dhNzP18RurlRle7ZLMsO%2frkYwDPrSdxfgM%3d&folderid=2_0cf27dc073eec4cff93e122123c7f4a92&rev=1) first.
@@ -50,6 +55,7 @@ If you've enjoyed this lab and plan on doing some more work with geoChronR in th
 3. Open the Python environment
    * In Windows this will be the program named **Python X.XX**
 4. In the Python window type:
+<<<<<<< HEAD
 ```
 pip install lipd
 ```
@@ -59,6 +65,14 @@ pip install lipd
 ```
 pip3 install --egg lipd
 ```
+=======
+
+   `pip install lipd`
+
+   If the command above does not work (it may not for Python 3.6+ users) try:
+
+   `pip3 install --egg lipd`
+>>>>>>> parent of 2752def... Changed from chunks to code blocks
 
    * If Python is giving you an error saying `pip` is not a recognized command you need to follow a few extra steps which worked for me, but mileage may vary.
       1. Locate the Python installation directory, its often located in **C:\Users\USERNAME\AppData\Local\Programs\Python\PythonXX-32**
