@@ -18,7 +18,7 @@ install.packages("devtools")
 ```
 install_github("nickmckay/GeoChronR")
 ```
-   *  This can take a while since the geoChronR package depends on a lot of other packages which will also be installed in the process.
+      * This can take a while since the geoChronR package depends on a lot of other packages which will also be installed in the process.
 
 4. Load the geoChronR package into the R environment:
 ```
@@ -52,7 +52,7 @@ If you've enjoyed this lab and plan on doing some more work with geoChronR in th
 ```
 pip install lipd
 ```
-   If the command above does not work (it may not for Python 3.6+ users) try:
+   If the command above does not work (it may for Python 3.6+ users) try:
 ```
 pip3 install --egg lipd
 ```
