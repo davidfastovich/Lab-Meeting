@@ -10,19 +10,14 @@ In order to generate and work with LiPD files in the GeoChronR package we need t
 ## Installing the GeoChronR and Dependent Packages
 
 1. Open RStudio
-2. Install the devtools package by typing the following into the console:
+2. Install the devtools package and load it into the R session:
 
    ```
    install.packages("devtools")
+   library(devtools)
    ```
 
-3. Load devtools into your current R session:
-
-   ```
-   library("devtools")
-   ```
-
-4. Install the pcaMethods package:
+3. Install the pcaMethods package:
 
    ```
    source("https://bioconductor.org/biocLite.R")
@@ -31,7 +26,7 @@ In order to generate and work with LiPD files in the GeoChronR package we need t
 
    If it asks to update any packages, don't allow it. It should continue with the installation process with less headache down the road.
 
-5. Install the GeoChronR package:
+4. Install the GeoChronR package:
 
    ```
    install_github("nickmckay/GeoChronR")
@@ -39,29 +34,27 @@ In order to generate and work with LiPD files in the GeoChronR package we need t
 
    This can take a while since the GeoChronR package depends on a lot of other packages which will also be installed in the process.
 
-6. Load the GeoChronR package into the R environment:
+5. Load the GeoChronR package into the R session and run initial setup:
 
    ```
    library(geoChronR)
+   setupGeoChronR()
    ```
 
-7. Load the lipdR package into the R environment:
+6. Install LiPD Utilities and load the package into the R session:
 
    ```
+   install_github("nickmckay/lipd-utilities", subdir = "R")
    library(lipdR)
    ```
 
-8. Setup GeoChronR for initial use:
-
-   ```
-   setupGeoChronR()
-   ```
+   If you get an error saying that `install_github` is not a function in R run the `library(devtools)` command again and retry the installation.
 
 If you plan on doing your age modeling directly through GeoChronR then you will also need [bacon](http://chrono.qub.ac.uk/blaauw/), [clam](http://chrono.qub.ac.uk/blaauw/), or [Bchron](https://cran.r-project.org/web/packages/Bchron/index.html).
 
 We're now up and running with the GeoChronR package and can get to time uncertainty work! Let start with some [examples](https://uwprod-my.sharepoint.com/personal/fastovich_wisc_edu/_layouts/15/guestaccess.aspx?guestaccesstoken=0bUdE7bR4dhNzP18RurlRle7ZLMsO%2frkYwDPrSdxfgM%3d&folderid=2_0cf27dc073eec4cff93e122123c7f4a92&rev=1) first.
 
-If you want feel free to [read up](https://uwprod-my.sharepoint.com/personal/fastovich_wisc_edu/_layouts/15/guestaccess.aspx?guestaccesstoken=lHdqzvZzp%2bIB1HXqKTIFjdLYU4JsDrI2mq3TysnqU6o%3d&folderid=2_11c28acdfb2b74a618e7aa38c9b88e5b1&rev=1) on what work is possible with GeoChronR.
+Feel free to [read up](https://uwprod-my.sharepoint.com/personal/fastovich_wisc_edu/_layouts/15/guestaccess.aspx?guestaccesstoken=lHdqzvZzp%2bIB1HXqKTIFjdLYU4JsDrI2mq3TysnqU6o%3d&folderid=2_11c28acdfb2b74a618e7aa38c9b88e5b1&rev=1) on what work is possible with GeoChronR.
 
 ---
 
