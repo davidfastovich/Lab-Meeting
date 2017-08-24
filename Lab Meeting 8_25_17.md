@@ -14,21 +14,25 @@ In order to generate and work with LiPD files in the GeoChronR package we need t
 
    `install.packages("devtools")`
 
-3. Install the GeoChronR package:
+3. Load devtools into your current R session
+
+   `library("devtools")`
+
+4. Install the GeoChronR package:
 
    `install_github("nickmckay/GeoChronR")`
 
    This can take a while since the GeoChronR package depends on a lot of other packages which will also be installed in the process.
 
-4. Load the GeoChronR package into the R environment:
+5. Load the GeoChronR package into the R environment:
 
    `library(geoChronR)`
 
-5. Load the lipdR package into the R environment:
+6. Load the lipdR package into the R environment:
 
    `library(lipdR)`
 
-6. Setup GeoChronR for initial use:
+7. Setup GeoChronR for initial use:
 
    `setupGeoChronR()`
 
