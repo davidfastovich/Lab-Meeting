@@ -12,9 +12,9 @@ In order to generate and work with LiPD files in the GeoChronR package we need t
 1. Open RStudio
 2. Install the devtools package by typing the following into the console:
 
-  ```
-  install.packages("devtools")
-  ```
+   ```
+   install.packages("devtools")
+   ```
 
 3. Load devtools into your current R session:
 
