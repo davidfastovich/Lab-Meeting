@@ -12,11 +12,15 @@ In order to generate and work with LiPD files in the GeoChronR package we need t
 1. Open RStudio
 2. Install the devtools package by typing the following into the console:
 
-   `install.packages("devtools")`
+  ```
+  install.packages("devtools")
+  ```
 
 3. Load devtools into your current R session:
 
-   `library("devtools")`
+   ```
+   library("devtools")
+   ```
 
 4. Install the pcaMethods package:
 
@@ -25,23 +29,33 @@ In order to generate and work with LiPD files in the GeoChronR package we need t
    biocLite("pcaMethods")
    ```
 
+   If it asks to update any packages, don't allow it. It should continue with the installation process with less headache down the road.
+
 5. Install the GeoChronR package:
 
-   `install_github("nickmckay/GeoChronR")`
+   ```
+   install_github("nickmckay/GeoChronR")
+   ```
 
    This can take a while since the GeoChronR package depends on a lot of other packages which will also be installed in the process.
 
 6. Load the GeoChronR package into the R environment:
 
-   `library(geoChronR)`
+   ```
+   library(geoChronR)
+   ```
 
 7. Load the lipdR package into the R environment:
 
-   `library(lipdR)`
+   ```
+   library(lipdR)
+   ```
 
 8. Setup GeoChronR for initial use:
 
-   `setupGeoChronR()`
+   ```
+   setupGeoChronR()
+   ```
 
 If you plan on doing your age modeling directly through GeoChronR then you will also need [bacon](http://chrono.qub.ac.uk/blaauw/), [clam](http://chrono.qub.ac.uk/blaauw/), or [Bchron](https://cran.r-project.org/web/packages/Bchron/index.html).
 
@@ -61,11 +75,15 @@ If you've enjoyed this lab and plan on doing some more work with GeoChronR in th
    * In Windows this will be the program named **Python X.XX**
 4. In the Python window type:
 
-   `pip install lipd`
+   ```
+   pip install lipd
+   ```
 
    If the command above does not work (it may not for Python 3.6+ users) try:
 
-   `pip3 install --egg lipd`
+   ```
+   pip3 install --egg lipd
+   ```
 
    * If Python is giving you an error saying `pip` is not a recognized command you need to follow a few extra steps which worked for me, but mileage may vary.
       1. Locate the Python installation directory, its often located in **C:\Users\USERNAME\AppData\Local\Programs\Python\PythonXX-32**
